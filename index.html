@@ -14,21 +14,17 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to get started</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quas
-            beatae dicta ducimus nostrum! Sit illo culpa veritatis error? Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            fuga.
-          </p>
-        </div>
-        <a href="" class="button button--secondary button--stretched"
-          >Get Started</a
-        >
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, rem.
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
