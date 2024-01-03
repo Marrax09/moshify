@@ -140,7 +140,7 @@ a{
 
 .list--inline .list__item{
     display: inline-block;
-    margin-right: 2ren;
+    margin-right: 2rem;
 }
 
 .list--tick{
@@ -314,7 +314,7 @@ a{
 }
 
 .card__header, .card__body{
-    padding: 2rem 3rem;
+    padding: 2rem 7%;
 }
 
 .card--primary  .card__header{
